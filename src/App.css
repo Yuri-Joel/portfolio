@@ -1,0 +1,9 @@
+.nav-link.active {
+  color:  hsl(342, 92%, 46%); /* azul */
+  font-weight: bold;
+}
+
+
+.nav-item{
+  margin-left: -5px;
+}

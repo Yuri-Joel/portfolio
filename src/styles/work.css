@@ -1,0 +1,75 @@
+/* Fundo escuro semitransparente */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  /* Caixa da modal */
+  .modal {
+    background: hsl(243, 14%, 10%);
+    padding: 2rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    animation: scaleUp 0.3s ease;
+  }
+  
+  /* Botão de fechar */
+  .modal-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .modal-title {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .modal-description {
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .modal-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .modal-info li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .modal-info a {
+    color: #0077ff;
+    text-decoration: none;
+  }
+  
+  .modal-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animações */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  @keyframes scaleUp {
+    from { transform: scale(0.8); opacity: 0; }
+    to   { transform: scale(1); opacity: 1; }
+  }
+  
