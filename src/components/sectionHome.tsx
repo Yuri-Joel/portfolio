@@ -16,7 +16,7 @@ export default function SectionHome () {
 
         {/* Imagem principal */}
         <img
-          src={profile}
+          src={"https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1600&q=60&utm_source=chatgpt.com"}
           alt="Foto principal"
           className="home-img"
         />

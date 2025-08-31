@@ -6,7 +6,7 @@ Este é o meu site pessoal onde compartilho os meus **projetos**, **ideias** e *
 Aqui podes encontrar trabalhos que já desenvolvi e também acompanhar novas criações.  
 
 ## 🔗 Acesse o site
-[👉 Clique aqui para visitar meu portfólio](https://teusite.com)  
+[👉 Clique aqui para visitar meu portfólio](https://portfolio-yuri-gomes-projects-1bf7c39f.vercel.app/)  
 
 ## 📂 Tecnologias usadas
 - Vite ⚡  
@@ -14,5 +14,5 @@ Aqui podes encontrar trabalhos que já desenvolvi e também acompanhar novas cri
 
 ## 📬 Contato
 Se quiseres trocar uma ideia ou colaborar em algum projeto, fala comigo:  
-- Email: teuemail@email.com  
+- Email: yurijooel04@@email.com  
 - LinkedIn: [https://www.linkedin.com/in/yuri-joel-76128a2a3/](https://www.linkedin.com/in/yuri-joel-76128a2a3/)

@@ -266,39 +266,12 @@ input {
 .main {
   margin-left: 100px;
 }
-.home {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-}
-
-/* Criamos um pseudo-elemento só para a imagem */
-.home::after {
-  content: "";
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  width: 500px;
-  height: 500px;
-  background: url("/src/assets/image.png") no-repeat center/contain;
-  animation: float 4s ease-in-out infinite;
-}
-
-/* Animação suave */
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-15px);
-  }
-}
-
-@media (max-width: 768px) {
-  .home {
-    background-size: 100px; /* menor ainda em telas pequenas */
-  }
-}
+ .home {
+        background: url("https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1600&q=60&utm_source=chatgpt.com");
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+      }
 
 .home-container {
   position: relative;
