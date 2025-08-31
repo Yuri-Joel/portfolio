@@ -1,4 +1,3 @@
-import profile from '../assets/image.png'
 export default function SectionHome () {
   return (
     <section className="home" id="home">
